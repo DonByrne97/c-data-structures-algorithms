@@ -1,2 +1,4 @@
 ## c-data-structures-algorithms
-Common data structures and algorithms in pure C. All data structures are programmed from scratch with no outside assistance or use of third-party libraries. Feel free to copy and reuse them as you please. 
+
+### Welcome! 
+This is a repository of common data structures and algorithms in the C programming language. All of these files have been coded from scratch and only use the standard C libraries; no third-party libraries or packages are used. 
