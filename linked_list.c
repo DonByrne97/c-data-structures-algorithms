@@ -54,7 +54,7 @@ linked_list* create_linked_list(list_node* head) {
         printf((const char*)stderr, printf("malloc failure\n")); 
     }
     new_list->head = head; 
-    new_list->size = 0; 
+    new_list->size = 1;  
     return new_list; 
 }
 
