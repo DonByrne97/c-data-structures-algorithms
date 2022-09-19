@@ -65,4 +65,5 @@ int main()
     pop(myStack);
     print(myStack); 
     printf("%d ", peek(myStack)); 
+    free(myStack); 
 }
