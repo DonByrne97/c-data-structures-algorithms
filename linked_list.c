@@ -108,6 +108,16 @@ void remove_value(linked_list* list, int value) {
     }
 }
 
+void free_list(linked_list* list) {
+    list_node* current = list->head; 
+    list_node* prev = NULL; 
+    while(current) {
+        prev = current; 
+        current = current->next; 
+        free(prev); 
+    }
+}
+
 int main()
 {
     list_node* head = create_node(5); 
@@ -122,4 +132,5 @@ int main()
     print_list(myList); 
     remove_value(myList, 10); 
     print_list(myList); 
+    free_list(myList); 
 }
