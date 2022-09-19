@@ -75,4 +75,5 @@ int main()
     printf("%d\n", is_empty(myQueue)); 
     dequeue(myQueue); 
     print_queue(myQueue); 
+    free(myQueue); 
 }
